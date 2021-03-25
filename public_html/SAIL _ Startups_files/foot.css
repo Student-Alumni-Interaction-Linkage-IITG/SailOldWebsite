@@ -1,0 +1,48 @@
+#foot{
+    background: rgba(0, 163, 163, 1);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-width: 800px;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+#foot > div{
+    padding: 10px 0px;
+    width: 60%;
+    margin: auto;
+}
+
+
+#foot > div > p{
+    text-align: center;
+}
+
+
+#foot a{
+    display: block;
+    float: left;
+    text-align: center;
+    color: #eee;
+    padding: 15px 18px;
+    font-size: 12px;
+}
+
+
+#foot a:hover{
+    
+}
+
+
+#foot a:nth-child(5){
+    float: right;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #foot a:nth-child(5) {
+        display: none !important;
+    }
+}
