@@ -15,7 +15,7 @@ jobs:
     - uses: akhilmhdh/contributors-readme-action@v2.3.4
 #   - uses: BobAnkh/add-contributors@master
       with:
-#         CONTRIBUTOR: '### Contributors'
+#       CONTRIBUTOR: '### Contributors'
         COLUMN_PER_ROW: '10'
         ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
         IMG_WIDTH: '100'
@@ -23,5 +23,5 @@ jobs:
         PATH: '/README.md'
         COMMIT_MESSAGE: 'docs(README): update contributors'
         AVATAR_SHAPE: 'round'
-#               env:
-#                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
