@@ -22,6 +22,11 @@ The implementation strives to be simple and free of unnecessary dependencies.
 - [Blogs](https://student-alumni-interaction-linkage-iitg.github.io/SailOldWebsite/public_html/blog.html) provides information about all the blogs posted by SAIL.
 - [Team](https://student-alumni-interaction-linkage-iitg.github.io/SailOldWebsite/public_html/index.html#team) provides information about SAIL team.
 
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
 ## Contributing
 
 - Fork and clone repository
