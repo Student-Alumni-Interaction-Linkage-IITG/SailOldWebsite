@@ -10,14 +10,18 @@ jobs:
   add-contributors:
     runs-on: ubuntu-latest
     steps:
+    - name: Contribute List
     - uses: actions/checkout@v2
-    - uses: BobAnkh/add-contributors@master
+    - uses: akhilmhdh/contributors-readme-action@v2.3.4
+#   - uses: BobAnkh/add-contributors@master
       with:
         CONTRIBUTOR: '### Contributors'
-        COLUMN_PER_ROW: '6'
+        COLUMN_PER_ROW: '10'
         ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
         IMG_WIDTH: '100'
         FONT_SIZE: '14'
         PATH: '/README.md'
         COMMIT_MESSAGE: 'docs(README): update contributors'
         AVATAR_SHAPE: 'round'
+#               env:
+#                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
