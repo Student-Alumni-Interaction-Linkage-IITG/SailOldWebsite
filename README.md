@@ -25,7 +25,7 @@ The implementation strives to be simple and free of unnecessary dependencies.
 <!-- ## Contributors
 
 <!-- readme: contributors -start -->
-<!-- readme: contributors -end --> -->
+<!-- readme: contributors -end --> 
 
 ## Contributing
 
