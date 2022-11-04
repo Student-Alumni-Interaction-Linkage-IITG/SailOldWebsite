@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    border-spacing: 0;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.unselect{
+    cursor: default;
+    list-style-type: none;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+.hrule{
+    float: none;
+    clear: both;
+}

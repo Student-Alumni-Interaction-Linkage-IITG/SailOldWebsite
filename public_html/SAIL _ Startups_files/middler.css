@@ -1,0 +1,72 @@
+#middler{
+    padding-top: 40px;
+    margin: auto;
+    width: 60%;
+    min-width: 400px;
+    font-family: sans-serif;
+    line-height: 34px;
+    font-size: 16px;
+    padding-bottom: 70px;
+}
+
+#middler > #heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgba(0, 153, 153, 0.9);
+}
+
+#middler > h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: #333;
+}
+
+#middler > p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#middler ol{
+    margin-left: 40px;
+}
+
+#middler a{
+    text-decoration: none;
+    color: rgba(0, 153, 153, 0.9);
+}
+
+#middler a:hover img{
+    opacity: 0.7;
+}
+
+#middler form  button{
+    cursor: pointer;
+    color: rgba(0, 153, 153, 1);
+    font-size: 16px;
+    padding: 6px 0px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: 200px;
+    border-radius: 2px;
+    border: 2px solid rgba(0, 153, 153, 1);
+}
+
+#middler form  button:hover{
+    background: rgba(0, 153, 153, 1);
+    color: #eee;
+}
+
+#middler .hrule{
+    height: 30px;
+}
+
+#middler table{
+    margin-left
+}
+
+#middler table td{
+    padding: 0px 90px 0px 0px;
+    vertical-align: top;
+}
